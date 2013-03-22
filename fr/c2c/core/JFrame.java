@@ -36,6 +36,8 @@ public class JFrame extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("C2C-Converter");
+        setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Trebuchet MS", 0, 16)); // NOI18N
         jLabel1.setText("Convertir une classe ou un bout de code");
